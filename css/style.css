@@ -1,0 +1,137 @@
+@font-face {
+    src: url(../fonts/kollektif-bold.ttf);
+    font-family: 'KolletifBold';    
+    font-weight: normal;
+} 
+
+@font-face {
+    src: url(../fonts/Gidole-Regular.otf);
+    font-family: 'Gidole';    
+    font-weight: normal;
+} 
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: 'Gidole';
+}
+
+h1, h2, h4{
+    font-family: 'KolletifBold';
+}
+
+h2{
+    font-size: 40px;
+}
+
+h4{
+    margin-bottom: 10px;
+}
+
+.bottom-h2{
+    font-size: 20px;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/rio.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.porque-usar{
+    background-color: #F8F3F2;
+    padding: 100px;
+}
+
+.row-white{
+    background-color: white;
+}
+
+.h1-home {
+    font-family: 'KolletifBold';  
+}
+
+.h2-home {
+    font-family: 'Gidole'; 
+}
+
+.img-store{
+    width: 225px;
+}
+
+.app-store{
+    margin-right: 25px;
+}
+
+.img-home{
+    width: 500px;
+}
+
+.alignhome-title {
+    padding-top: 30vh;
+}
+
+.alignhome-img {
+    padding-top: 30vh;
+}
+
+.img-home{
+    width: 100%;
+}
+
+.navbar-custom {
+    overflow: hidden;
+    background-color: rgba(250 , 153, 28, 0.8);
+    padding: 10px 10px;
+    transition: 0.4s;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+.nav-link>a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Gidole';
+}
+
+.fa-bars {
+    color: white;
+    font-size: 35px;
+}
+
+.logo {
+    width: 100px;
+    transition: 0.4s;
+}
+
+.icon-container{
+    width: 110px;
+    margin-top: 5px;
+    margin-right: 25px;
+}
+
+.border-1{
+    border-right: solid 1px #ededed;
+    border-bottom: solid 1px #ededed;
+    padding: 30px;
+}
+
+.border-2{
+    border-bottom: solid 1px #ededed;
+    padding: 30px;
+}
+
+.space-row{
+    margin-top: 25px;
+}
+
+.card-txt{
+    font-size: 18px;
+}
+
