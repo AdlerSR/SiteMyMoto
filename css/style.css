@@ -1,3 +1,5 @@
+/* fonts */
+
 @font-face {
     src: url(../fonts/kollektif-bold.ttf);
     font-family: 'KolletifBold';    
@@ -9,6 +11,10 @@
     font-family: 'Gidole';    
     font-weight: normal;
 } 
+
+/* end fonts */
+
+/* default */
 
 body {
     margin: 0;
@@ -30,6 +36,30 @@ h2{
 h4{
     margin-bottom: 10px;
 }
+
+/* end default */
+
+/* navbar */
+    
+.navbar-custom {
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(244,145,19,1) 29%, rgba(251,170,34,1) 87%);
+    padding: 10px 10px;
+    transition: 0.4s;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+.nav-link>a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Gidole';
+}
+
+/* end navbar */
+
+/* home */
 
 .bottom-h2{
     font-size: 20px;
@@ -53,32 +83,12 @@ h4{
     margin-bottom: 97px;
 }
 
-.color-usar{
-    background-color: #F8F3F2;
-    padding: 130px 0px;
-    transition: all .8s ease;
-}
-
-
-.row-white{
-    background-color: white;
-    transition: 0.4s;
-}
-
 .h1-home {
     font-family: 'KolletifBold';  
 }
 
 .h2-home {
     font-family: 'Gidole'; 
-}
-
-.img-store{
-    width: 225px;
-}
-
-.app-store{
-    margin-right: 25px;
 }
 
 .img-home{
@@ -94,20 +104,26 @@ h4{
     padding-top: 30vh;
 }
 
-.navbar-custom {
-    overflow: hidden;
-    background: linear-gradient(90deg, rgba(244,145,19,1) 29%, rgba(251,170,34,1) 87%);
-    padding: 10px 10px;
-    transition: 0.4s;
-    width: 100%;
-    top: 0;
-    z-index: 99;
+.img-store{
+    width: 225px;
 }
 
-.nav-link>a {
-    color: white;
-    text-decoration: none;
-    font-family: 'Gidole';
+.app-store{
+    margin-right: 25px;
+}
+
+/* end home */
+
+.color-usar{
+    background-color: #F8F3F2;
+    padding: 130px 0px;
+    transition: all .8s ease;
+}
+
+
+.row-white{
+    background-color: white;
+    transition: 0.4s;
 }
 
 .fa-bars {
