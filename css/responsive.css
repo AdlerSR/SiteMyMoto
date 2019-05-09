@@ -6,48 +6,123 @@
     .h2-home {
         font-size: 1.9rem;
     }
+
+    .navbar-custom {
+        padding: 6px 10px;
+    }
+    .card-txt{
+        font-size: 16px;
+        display: block;
+    }
+    .img-store{
+        width: 140px;
+    }
+
+    .app-store{
+        margin-right: 0px;
+    }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .h1-home {
-        font-size: 5.2rem;
+        font-size: 5.8rem;
+
     }
 
     .h2-home {
-        font-size: 2.4rem;
+        font-size: 2.3rem;
+    }
+
+    .navbar-custom {
+        padding: 7px 10px;
+    }
+
+    .img-store{
+        width: 170px;
+    }
+
+    .alignhome-img {
+        display: none;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .h1-home {
-        font-size: 6rem;
+        font-size: 4.9rem;  
     }
 
     .h2-home {
-        font-size: 2.8rem;
+        font-size: 2.3rem;
+        margin-bottom: 50px;
+    }
+
+    .navbar-custom {
+        padding: 8px 10px;
+    }
+
+    .text-padding{
+        padding: 15px;
+    }
+
+    .img-store{
+        width: 140px;
+    }
+
+    .img-home {
+        width: 120%;
+    }
+    
+    .alignhome-img {
+        padding-top: 25vh;
+        
+    }
+
+    .card-txt{
+        font-size: 16px;
+        display: block;
     }
 }
 
 @media (min-width: 1025px) and (max-width: 1599px) {
     .h1-home {
         font-size: 6.8rem;
+        margin-bottom: 30px;
     }
 
     .h2-home {
-        font-size: 3.2rem;
+        font-size: 2.7rem;
+        margin-bottom: 70px;
+    }
+
+    .navbar-custom {
+        padding: 9px 10px;
+    }
+
+    .img-store{
+        width: 200px;
+    }
+
+    .alignhome-img {
+        padding-top: 25vh;
+    }
+
+    .app-store{
+        margin-right: 23px;
+    }
+
+    .img-home {
+        margin-left: 20px;
+        width: 114%;
+    }
+
+    .card-txt{
+        font-size: 16px;
+        display: block;
     }
 }
 
 @media (min-width: 1600px) {
-    .h1-home {
-        font-size: 7.9rem;
-        margin-bottom: 33px;
-    }
-
-    .h2-home {
-        font-size: 3.6rem;
-        margin-bottom: 97px;
-    }
+    
 }
 
 @media (max-width: 767px){

@@ -43,13 +43,26 @@ h4{
     background-attachment: fixed;
 }
 
-.porque-usar{
-    background-color: #F8F3F2;
-    padding: 100px;
+.h1-home {
+    font-size: 7.9rem;
+    margin-bottom: 33px;
 }
+
+.h2-home {
+    font-size: 3.6rem;
+    margin-bottom: 97px;
+}
+
+.color-usar{
+    background-color: #F8F3F2;
+    padding: 130px 0px;
+    transition: all .8s ease;
+}
+
 
 .row-white{
     background-color: white;
+    transition: 0.4s;
 }
 
 .h1-home {
@@ -70,6 +83,7 @@ h4{
 
 .img-home{
     width: 500px;
+    background-attachment: fixed;
 }
 
 .alignhome-title {
@@ -80,13 +94,9 @@ h4{
     padding-top: 30vh;
 }
 
-.img-home{
-    width: 100%;
-}
-
 .navbar-custom {
     overflow: hidden;
-    background-color: rgba(250 , 153, 28, 0.8);
+    background: linear-gradient(90deg, rgba(244,145,19,1) 29%, rgba(251,170,34,1) 87%);
     padding: 10px 10px;
     transition: 0.4s;
     width: 100%;
@@ -107,24 +117,35 @@ h4{
 
 .logo {
     width: 100px;
+    padding: 10px;  
     transition: 0.4s;
 }
 
 .icon-container{
-    width: 110px;
-    margin-top: 5px;
-    margin-right: 25px;
+    width: 100px;
+    height: 100px;
+    margin: 0px auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    text-align: center;
+    display: block;
+    position: relative;
+    margin-right: 30px;
+    margin-top: 12px;
 }
 
 .border-1{
     border-right: solid 1px #ededed;
     border-bottom: solid 1px #ededed;
-    padding: 30px;
 }
 
 .border-2{
     border-bottom: solid 1px #ededed;
-    padding: 30px;
+}
+
+.border-3{
+    border-right: 1px solid #ededed;
 }
 
 .space-row{
@@ -133,5 +154,11 @@ h4{
 
 .card-txt{
     font-size: 18px;
+    display: block;
 }
 
+.text-padding{
+    padding: 30px;
+    overflow: hidden;
+    transition: all .8s ease;
+}
