@@ -12,7 +12,7 @@
     font-weight: normal;
 } 
 
-/* end fonts */
+/* /fonts */
 
 /* default */
 
@@ -37,7 +37,12 @@ h4{
     margin-bottom: 10px;
 }
 
-/* end default */
+.padding-container{
+    padding: 130px 0px;
+    transition: all .8s ease;
+}
+
+/* /default */
 
 /* navbar */
     
@@ -57,7 +62,18 @@ h4{
     font-family: 'Gidole';
 }
 
-/* end navbar */
+.fa-bars {
+    color: white;
+    font-size: 35px;
+}
+
+.logo {
+    width: 100px;
+    padding: 10px;  
+    transition: 0.4s;
+}
+
+/* /navbar */
 
 /* home */
 
@@ -92,7 +108,7 @@ h4{
 }
 
 .img-home{
-    width: 500px;
+    width: 550px;
     background-attachment: fixed;
 }
 
@@ -112,29 +128,18 @@ h4{
     margin-right: 25px;
 }
 
-/* end home */
+/* /home */
+
+/* como usar */
 
 .color-usar{
     background-color: #F8F3F2;
-    padding: 130px 0px;
-    transition: all .8s ease;
 }
-
 
 .row-white{
     background-color: white;
     transition: 0.4s;
-}
-
-.fa-bars {
-    color: white;
-    font-size: 35px;
-}
-
-.logo {
-    width: 100px;
-    padding: 10px;  
-    transition: 0.4s;
+    border-radius: 15px;
 }
 
 .icon-container{
@@ -178,3 +183,41 @@ h4{
     overflow: hidden;
     transition: all .8s ease;
 }
+
+/* /como usar */
+
+/* vire motorista */
+
+.img-download{
+    width: 330px;
+}
+
+.img-login{
+    width: 351px;
+}
+
+.img-pedir{
+    width: 283px;
+}
+
+.img-esperar{
+    width: 330px;
+}
+
+.img-pagar{
+    width: 331px;
+}
+
+.img-confirmar{
+    width: 316px;
+}
+
+.motorista-txt{
+    font-size: 20px;
+}
+
+.h4-motorista{
+    font-size: 30px;
+}
+
+/* /vire motorista */
