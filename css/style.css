@@ -2,7 +2,7 @@
 
 @font-face {
     src: url(../fonts/kollektif-bold.ttf);
-    font-family: 'KolletifBold';
+    font-family: 'KollektifBold';
     font-weight: normal;
 }
 
@@ -39,7 +39,7 @@ p {
 h1,
 h2,
 h4 {
-    font-family: 'KolletifBold';
+    font-family: 'KollektifBold';
 }
 
 h2 {
@@ -113,7 +113,7 @@ h4 {
 }
 
 .h1-home {
-    font-family: 'KolletifBold';
+    font-family: 'KollektifBold';
 }
 
 .h2-home {
@@ -199,7 +199,7 @@ h4 {
 
 /* /como usar */
 
-/* vire motorista */
+/* como funciona */
 
 .img-download {
     width: 330px;
@@ -225,6 +225,46 @@ h4 {
     width: 316px;
 }
 
+.comofunciona-txt {
+    font-size: 20px;
+}
+
+.h4-comofunciona {
+    font-size: 30px;
+}
+
+/* /como funciona */
+
+/* vire motorista */
+
+.color-motorista{
+    background-color: #F8F3F2;
+}
+
+.img-atencao {
+    width: 330px;
+}
+
+.img-pergunta {
+    width: 318px;
+}
+
+.img-documento {
+    width: 254px;
+}
+
+.img-camera {
+    width: 330px;
+}
+
+.img-examinar {
+    width: 283px;
+}
+
+.img-parabens {
+    width: 246px;
+}
+
 .motorista-txt {
     font-size: 20px;
 }
@@ -235,15 +275,15 @@ h4 {
 
 /* /vire motorista */
 
-/* background footer */
+/* footer */
 
 .background-footer1 {
     background-color: #032539;
-    border-bottom: #737cbf 1px solid;
 }
 
 .background-footer2 {
     background-color: #041f2e;
+    border-top: rgba(244, 145, 19, 1) 1px solid;
 }
 
 .align-text-footer {
@@ -291,3 +331,4 @@ a .fab {
     color: rgb(86, 91, 95);
 }
 
+/* /footer */

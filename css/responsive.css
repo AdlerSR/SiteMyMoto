@@ -146,3 +146,21 @@
 @media (min-width: 1600px) {
     
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .motorista-txt {
+        font-size: 16px;
+    }
+    
+    .h4-motorista {
+        font-size: 27px;
+    }
+
+    .comofunciona-txt {
+        font-size: 16px;
+    }
+    
+    .h4-comofunciona {
+        font-size: 27px;
+    }
+}
